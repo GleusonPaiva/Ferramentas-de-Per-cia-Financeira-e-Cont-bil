@@ -1,0 +1,16 @@
+# Estratégia "Cofre" - Proteção de Dados de Perícia
+
+# Ignorar extensões de documentos sensíveis
+*.xlsx
+*.xls
+*.pdf
+*.docx
+*.doc
+*.csv
+
+# Ignorar pastas de dados reais e processos judiciais
+/dados/
+/processos/
+
+# Ignorar variáveis de ambiente (contendo caminhos locais ou senhas)
+.env
